@@ -6,7 +6,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/afpero/backend/internal/ports"
+	"github.com/afpro/backend/internal/ports"
 )
 
 // ErrZapSignNotImplemented é retornado por todos os métodos do stub.

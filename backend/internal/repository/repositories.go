@@ -10,7 +10,7 @@ import (
 
 	supa "github.com/supabase-community/supabase-go"
 
-	"github.com/afpero/backend/internal/domain"
+	"github.com/afpro/backend/internal/domain"
 )
 
 // ─── Repositório de Temporadas ────────────────────────────────────────────────

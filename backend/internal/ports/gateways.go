@@ -6,7 +6,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/afpero/backend/internal/domain"
+	"github.com/afpro/backend/internal/domain"
 )
 
 // ─── Port: Gateway de Pagamento ───────────────────────────────────────────────

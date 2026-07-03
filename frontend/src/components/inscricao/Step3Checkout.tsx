@@ -256,7 +256,7 @@ function ExpiredState() {
         </h2>
         <p className="text-muted">
           O QR Code expirou após 30 minutos. Não se preocupe — sua inscrição foi salva!
-          Entre em contato com a AFPERO para reagendar o pagamento.
+          Entre em contato com a afpro para reagendar o pagamento.
         </p>
       </div>
 
@@ -267,7 +267,7 @@ function ExpiredState() {
         className="btn-primary inline-flex gap-2"
       >
         <RefreshCw size={18} />
-        Falar com a AFPERO
+        Falar com a afpro
       </a>
     </div>
   );

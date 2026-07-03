@@ -59,7 +59,7 @@ export default async function HomePage() {
               AF
             </div>
             <span className="font-bold text-sm tracking-widest uppercase opacity-80">
-              AFPERO
+              afpro
             </span>
           </div>
 
@@ -87,7 +87,7 @@ export default async function HomePage() {
       <footer className="py-8 text-center">
         <div className="divider-gradient mb-8" />
         <p className="text-muted text-sm">
-          © {new Date().getFullYear()} AFPERO — Associação Feminina de Pesca Esportiva de Rondônia
+          © {new Date().getFullYear()} afpro — Associação Feminina de Pesca Esportiva de Rondônia
         </p>
         <p className="text-muted text-xs mt-1 opacity-60">
           Todos os direitos reservados.

@@ -1,4 +1,4 @@
-// Package handler contém os handlers HTTP da API REST da AFPERO.
+// Package handler contém os handlers HTTP da API REST da afpro.
 // Usa o chi router. Cada handler é responsável apenas por:
 // - Decodificar a requisição
 // - Chamar o service

@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /* ═══════════════════════════════════════════════════════════════════════════
-   AFPERO — Global CSS
+   afpro — Global CSS
    As variáveis --color-* são definidas pelo root layout via style attribute,
    lidas da temporada ativa no banco de dados (Engine de Temas Dinâmicos).
    ═══════════════════════════════════════════════════════════════════════════ */

@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/afpero/backend/internal/domain"
-	"github.com/afpero/backend/internal/ports"
-	"github.com/afpero/backend/internal/repository"
+	"github.com/afpro/backend/internal/domain"
+	"github.com/afpro/backend/internal/ports"
+	"github.com/afpro/backend/internal/repository"
 )
 
 // FinanceiroService gerencia a geração das parcelas após confirmação do PIX.

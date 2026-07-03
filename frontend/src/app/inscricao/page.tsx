@@ -63,7 +63,7 @@ export default function InscricaoPage() {
 
             <div className="flex items-center gap-2">
               <Fish size={16} style={{ color: 'var(--color-primary)' }} />
-              <span className="text-sm font-bold opacity-70 uppercase tracking-widest">AFPERO</span>
+              <span className="text-sm font-bold opacity-70 uppercase tracking-widest">afpro</span>
             </div>
           </div>
 
@@ -95,8 +95,8 @@ export default function InscricaoPage() {
                         color: isActive
                           ? 'var(--color-primary)'
                           : isDone
-                          ? 'var(--color-text)'
-                          : 'var(--color-text-muted)',
+                            ? 'var(--color-text)'
+                            : 'var(--color-text-muted)',
                       }}
                     >
                       {label}

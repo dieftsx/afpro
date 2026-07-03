@@ -251,7 +251,7 @@ export default function Step1Cadastro({ onComplete }: Step1Props) {
             <span className="text-primary font-semibold" style={{ color: 'var(--color-primary)' }}>
               Política de Privacidade
             </span>{' '}
-            da AFPERO e autorizo o uso dos meus dados para processamento desta inscrição,
+            da afpro e autorizo o uso dos meus dados para processamento desta inscrição,
             conforme a Lei Geral de Proteção de Dados (LGPD).
           </span>
         </label>

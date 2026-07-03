@@ -1,4 +1,4 @@
-// Package main é o entrypoint da API REST da AFPERO.
+// Package main é o entrypoint da API REST da afpro.
 // Responsável por: carregar configurações, instanciar dependências (DI manual),
 // montar o router e iniciar o servidor HTTP.
 package main
@@ -14,12 +14,12 @@ import (
 	"github.com/go-chi/httprate"
 	supa "github.com/supabase-community/supabase-go"
 
-	"github.com/afpero/backend/internal/adapters/assinatura"
-	"github.com/afpero/backend/internal/adapters/pagamento"
-	"github.com/afpero/backend/internal/config"
-	"github.com/afpero/backend/internal/handler"
-	"github.com/afpero/backend/internal/repository"
-	"github.com/afpero/backend/internal/service"
+	"github.com/afpro/backend/internal/adapters/assinatura"
+	"github.com/afpro/backend/internal/adapters/pagamento"
+	"github.com/afpro/backend/internal/config"
+	"github.com/afpro/backend/internal/handler"
+	"github.com/afpro/backend/internal/repository"
+	"github.com/afpro/backend/internal/service"
 )
 
 func main() {
@@ -29,7 +29,7 @@ func main() {
 		log.Fatalf("[FATAL] Erro ao carregar configurações: %v", err)
 	}
 
-	log.Printf("[INFO] Iniciando AFPERO API — ambiente: %s", cfg.AppEnv)
+	log.Printf("[INFO] Iniciando afpro API — ambiente: %s", cfg.AppEnv)
 
 	// ── 2. Instanciar cliente Supabase (service_role key) ─────────────────────
 	supaClient, err := supa.NewClient(cfg.SupabaseURL, cfg.SupabaseServiceRoleKey, &supa.ClientOptions{})

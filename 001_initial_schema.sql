@@ -1,5 +1,5 @@
 -- =============================================================================
--- AFPERO — "5ª Temporada Meninas na Pesca"
+-- afpro — "5ª Temporada Meninas na Pesca"
 -- Schema SQL (DDL) — Supabase / PostgreSQL
 -- Versão: 1.0.0
 -- =============================================================================
@@ -563,7 +563,7 @@ INSERT INTO temporadas (
     E'## 1. Objeto\n'
     E'O presente termo regula a participação de {{PARTICIPANTE_NOME}} no evento '
     E'**{{TEMPORADA_NOME}}**, promovido pela Associação Feminina de Pesca Esportiva '
-    E'de Rondônia (AFPERO), a realizar-se no período de {{DATA_INICIO}} a {{DATA_FIM}}.\n\n'
+    E'de Rondônia (afpro), a realizar-se no período de {{DATA_INICIO}} a {{DATA_FIM}}.\n\n'
     E'## 2. Investimento e Forma de Pagamento\n'
     E'O valor total de participação é de **R$ {{VALOR_TOTAL}}**, dividido da seguinte forma:\n'
     E'- **Entrada via PIX:** R$ {{VALOR_ENTRADA}} (vencimento: {{DATA_VENCIMENTO_ENTRADA}})\n'
@@ -574,13 +574,13 @@ INSERT INTO temporadas (
     E'(ii) seguir as normas de segurança e conduta do evento; '
     E'(iii) informar condições de saúde relevantes à organização.\n\n'
     E'## 4. Cancelamento\n'
-    E'Em caso de desistência, a AFPERO reterá 30% do valor já pago a título de taxa administrativa. '
+    E'Em caso de desistência, a afpro reterá 30% do valor já pago a título de taxa administrativa. '
     E'Cancelamentos com menos de 30 dias do evento não são reembolsáveis.\n\n'
     E'## 5. Uso de Imagem\n'
     E'A participante autoriza o uso de imagens e vídeos captados durante o evento para fins de '
-    E'divulgação nas redes sociais e materiais institucionais da AFPERO, sem ônus financeiro.\n\n'
+    E'divulgação nas redes sociais e materiais institucionais da afpro, sem ônus financeiro.\n\n'
     E'## 6. Responsabilidade\n'
-    E'A AFPERO não se responsabiliza por eventuais acidentes decorrentes de negligência '
+    E'A afpro não se responsabiliza por eventuais acidentes decorrentes de negligência '
     E'da participante ou de situações de força maior.\n\n'
     E'**Data de assinatura:** {{DATA_ASSINATURA}}',
     TRUE

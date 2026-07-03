@@ -10,9 +10,9 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/afpero/backend/internal/domain"
-	"github.com/afpero/backend/internal/repository"
-	"github.com/afpero/backend/internal/service"
+	"github.com/afpro/backend/internal/domain"
+	"github.com/afpro/backend/internal/repository"
+	"github.com/afpro/backend/internal/service"
 )
 
 // ─── Webhook de Pagamento (Asaas) ─────────────────────────────────────────────

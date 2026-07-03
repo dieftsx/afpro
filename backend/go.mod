@@ -1,4 +1,4 @@
-module github.com/afpero/backend
+module github.com/afpro/backend
 
 go 1.22
 

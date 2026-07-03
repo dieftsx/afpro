@@ -12,8 +12,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/afpero/backend/internal/domain"
-	"github.com/afpero/backend/internal/ports"
+	"github.com/afpro/backend/internal/domain"
+	"github.com/afpro/backend/internal/ports"
 )
 
 // AsaasAdapter implementa ports.PagamentoGateway usando a API do Asaas.

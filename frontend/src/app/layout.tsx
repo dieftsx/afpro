@@ -14,12 +14,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'AFPERO — Associação Feminina de Pesca Esportiva de Rondônia',
+  title: 'afpro — Associação Feminina de Pesca Esportiva de Rondônia',
   description:
     'Inscreva-se na 5ª Temporada Meninas na Pesca. A maior experiência de pesca esportiva feminina de Rondônia.',
-  keywords: ['pesca esportiva', 'mulheres', 'rondônia', 'afpero', 'temporada'],
+  keywords: ['pesca esportiva', 'mulheres', 'rondônia', 'afpro', 'temporada'],
   openGraph: {
-    title: 'AFPERO — 5ª Temporada Meninas na Pesca',
+    title: 'afpro — 5ª Temporada Meninas na Pesca',
     description: 'Garanta sua vaga na maior experiência de pesca esportiva feminina de Rondônia.',
     type: 'website',
   },
@@ -37,11 +37,11 @@ export default async function RootLayout({
   try {
     const temporada = await getTemporadaAtiva();
     themeVars = {
-      '--color-primary':   temporada.cor_primaria,
+      '--color-primary': temporada.cor_primaria,
       '--color-secondary': temporada.cor_secundaria,
-      '--color-accent':    temporada.cor_acento,
-      '--color-bg':        temporada.cor_fundo,
-      '--color-text':      temporada.cor_texto,
+      '--color-accent': temporada.cor_acento,
+      '--color-bg': temporada.cor_fundo,
+      '--color-text': temporada.cor_texto,
     };
   } catch {
     // Silencioso — fallback para defaultTheme já configurado acima

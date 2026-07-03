@@ -8,8 +8,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/afpero/backend/internal/domain"
-	"github.com/afpero/backend/internal/ports"
+	"github.com/afpro/backend/internal/domain"
+	"github.com/afpro/backend/internal/ports"
 )
 
 // ErrMercadoPagoNotImplemented é retornado por todos os métodos do stub.

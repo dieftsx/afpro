@@ -1,5 +1,5 @@
 // Package service implementa a lógica de negócio da inscrição.
-// Orquestra os repositórios e os adapters externos seguindo as regras de negócio da AFPERO.
+// Orquestra os repositórios e os adapters externos seguindo as regras de negócio da afpro.
 package service
 
 import (
@@ -10,11 +10,11 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/afpero/backend/internal/adapters/assinatura"
-	"github.com/afpero/backend/internal/domain"
-	"github.com/afpero/backend/internal/ports"
-	"github.com/afpero/backend/internal/repository"
-	"github.com/afpero/backend/pkg/cpf"
+	"github.com/afpro/backend/internal/adapters/assinatura"
+	"github.com/afpro/backend/internal/domain"
+	"github.com/afpro/backend/internal/ports"
+	"github.com/afpro/backend/internal/repository"
+	"github.com/afpro/backend/pkg/cpf"
 )
 
 // ─── DTOs de entrada ──────────────────────────────────────────────────────────

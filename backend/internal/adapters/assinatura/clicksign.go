@@ -13,7 +13,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/afpero/backend/internal/ports"
+	"github.com/afpro/backend/internal/ports"
 )
 
 // ClicksignAdapter implementa ports.AssinaturaGateway usando a API do Clicksign.
@@ -40,7 +40,7 @@ type clicksignDocumentRequest struct {
 }
 
 type clicksignDocumentData struct {
-	Path        string `json:"path"`        // Ex: "/contratos/afpero/contrato_joana.pdf"
+	Path        string `json:"path"`        // Ex: "/contratos/afpro/contrato_joana.pdf"
 	ContentBase64 string `json:"content_base64"`
 	DeadlineAt  string `json:"deadline_at"` // ISO 8601
 	AutoClose   bool   `json:"auto_close"`
@@ -110,7 +110,7 @@ type clicksignDocStatusResponse struct {
 func (c *ClicksignAdapter) EnviarParaAssinatura(ctx context.Context, req ports.DocumentoRequest) (ports.DocumentoResponse, error) {
 	// ── Passo 1: Upload do documento ──
 	deadline := time.Now().AddDate(0, 1, 0).Format(time.RFC3339) // 30 dias para assinar
-	docPath := fmt.Sprintf("/afpero/contratos/%s/%s", req.TemporadaID, req.NomeArquivo)
+	docPath := fmt.Sprintf("/afpro/contratos/%s/%s", req.TemporadaID, req.NomeArquivo)
 
 	docReq := clicksignDocumentRequest{
 		Document: clicksignDocumentData{

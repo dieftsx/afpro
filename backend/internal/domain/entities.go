@@ -1,4 +1,4 @@
-// Package domain define as entidades puras do domínio AFPERO.
+// Package domain define as entidades puras do domínio afpro.
 // Nenhum arquivo neste pacote deve importar dependências de infraestrutura.
 package domain
 
